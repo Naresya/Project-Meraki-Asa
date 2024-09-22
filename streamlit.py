@@ -21,7 +21,7 @@ st.set_page_config(
 df = pd.read_pickle("data/data_sales_dash.pkl")
 
 # -------------------------------------- Membuat Sidebar ------------------------------
-with st.sidebar
+with st.sidebar:
     #Menambahkan logo pribadi
     st.write("Hi!")
     st.image("Main Material\asset\data-science.png")
